@@ -3700,7 +3700,7 @@ def move_file(source: str, destination: str) -> Dict[str, Any]:
             }
 
 @mcp.tool()
-def search_files(path: str, pattern: str, file_pattern: str = None, excludePatterns: List[str] = None) -> Dict[str, Any]:
+def search_files(path: str, pattern: str, file_pattern: str = None, excludePatterns: List[str] = None, search_type: str = "both") -> Dict[str, Any]:
     """
     Recursively search for files and directories matching a pattern.
     
@@ -3715,6 +3715,7 @@ def search_files(path: str, pattern: str, file_pattern: str = None, excludePatte
         pattern: The search pattern to match (case-insensitive)
         file_pattern: Optional pattern to filter files (e.g., "*.py")
         excludePatterns: Optional list of patterns to exclude from results
+        search_type: Type of search - "names" (file/dir names), "content" (file contents), or "both" (default)
         
     Returns:
         Dictionary with search results
