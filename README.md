@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/isekaizen-ai-dev-toolkit-badge.png)](https://mseep.ai/app/isekaizen-ai-dev-toolkit)
+
 <meta name="image" property="og:image" content="https://raw.githubusercontent.com/isekaizen/ai-dev-toolkit/main/docs/images/ai-dev-toolkit-dashboard-001.jpg" />
 <meta property="og:title" content="AI Dev Toolkit" />
 <meta property="og:description" content="A comprehensive system that enhances AI assistants with persistent code understanding, filesystem access, and task management." />
